@@ -1,0 +1,148 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-heading: var(--font-serif);
+  --font-sans: var(--font-sans), 'Geist Fallback';
+  --font-mono: var(--font-geist-mono), 'Geist Mono Fallback';
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.625rem;
+  --radius-xl: 0.875rem;
+  --radius-2xl: 1.0625rem;
+  --radius-3xl: 1.375rem;
+  --radius-4xl: 1.625rem;
+}
+
+:root {
+  color-scheme: light;
+  
+  /* Premium Photography Studio - Elegant Forest Green & White Theme */
+  --background: #ffffff; /* Crisp premium white */
+  --foreground: #112c24; /* Deep forest green black for typography */
+  
+  --card: #ffffff; 
+  --card-foreground: #112c24;
+  
+  --popover: #ffffff;
+  --popover-foreground: #112c24;
+  
+  --primary: #1A3A34; /* Dark Pine Green */
+  --primary-foreground: #ffffff;
+  
+  --secondary: #f2f7f5; /* Soft Sage Tint */
+  --secondary-foreground: #1A3A34;
+  
+  --muted: #e4edea;
+  --muted-foreground: #4c6e65;
+  
+  --accent: #2c5e54; /* Slate Pine/Forest Green from business card */
+  --accent-foreground: #ffffff;
+  
+  --destructive: #dc2626;
+  --border: #d2e0dc;
+  --input: #ffffff;
+  --ring: #1A3A34;
+  
+  --radius: 0.625rem;
+  
+  --sidebar: #ffffff;
+  --sidebar-foreground: #112c24;
+  --sidebar-primary: #1A3A34;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f2f7f5;
+  --sidebar-accent-foreground: #1A3A34;
+  --sidebar-border: #d2e0dc;
+  --sidebar-ring: #1A3A34;
+}
+
+.dark {
+  color-scheme: dark;
+  
+  /* Sophisticated Pine Forest Dark Theme */
+  --background: #0b1a17; /* Very deep pine black */
+  --foreground: #eaf4f0; /* Soft mint white */
+  
+  --card: #112521;
+  --card-foreground: #eaf4f0;
+  
+  --popover: #112521;
+  --popover-foreground: #eaf4f0;
+  
+  --primary: #eaf4f0;
+  --primary-foreground: #0b1a17;
+  
+  --secondary: #17332c;
+  --secondary-foreground: #eaf4f0;
+  
+  --muted: #1c3e36;
+  --muted-foreground: #8ca69e;
+  
+  --accent: #387a6c; 
+  --accent-foreground: #ffffff;
+  
+  --destructive: #ef4444;
+  --border: #1c3e36;
+  --input: #112521;
+  --ring: #387a6c;
+  
+  --sidebar: #0b1a17;
+  --sidebar-foreground: #eaf4f0;
+  --sidebar-primary: #eaf4f0;
+  --sidebar-primary-foreground: #0b1a17;
+  --sidebar-accent: #17332c;
+  --sidebar-accent-foreground: #eaf4f0;
+  --sidebar-border: #1c3e36;
+  --sidebar-ring: #387a6c;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
