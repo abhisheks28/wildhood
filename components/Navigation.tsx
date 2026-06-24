@@ -38,7 +38,7 @@ export function Navigation() {
           
           {/* Logo & WHP Brand */}
           <Link href="/" className="flex items-center gap-2.5 group">
-            <Logo className="w-9 h-9 text-primary transition-transform duration-300 group-hover:rotate-12" />
+            <Logo className="w-9 h-9 transition-transform duration-300 group-hover:rotate-12" variant="adaptive" />
             <div className="flex flex-col">
               <span className="text-xl font-serif font-black tracking-wider text-primary leading-none uppercase">WHP</span>
               <span className="text-[9px] tracking-[0.22em] font-semibold text-muted-foreground uppercase leading-none mt-1">Wildhood</span>

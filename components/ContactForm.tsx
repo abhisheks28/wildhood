@@ -111,7 +111,7 @@ function ContactFormInner() {
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            
+
             {/* Contact Info Cards */}
             <motion.div
               className="space-y-6"
@@ -140,7 +140,7 @@ function ContactFormInner() {
                   </div>
                   <div>
                     <h3 className="font-bold text-foreground mb-1 text-sm tracking-wide uppercase">Direct Call</h3>
-                    <a href="tel:+917349581177" className="text-foreground text-sm font-medium hover:text-accent transition-colors">+91 73495 81177</a>
+                    <a href="tel:+917349581177" className="text-foreground text-sm font-medium hover:text-accent transition-colors">+91 73495 81177, +91 96114 18625</a>
                     <p className="text-muted-foreground text-xs mt-1">Available for quick queries and urgent bookings.</p>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ function ContactFormInner() {
               transition={{ duration: 0.6 }}
             >
               <div className="space-y-6">
-                
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
@@ -230,7 +230,7 @@ function ContactFormInner() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 bg-background border border-border rounded-lg focus:outline-none focus:ring-1 focus:ring-accent focus:border-accent text-foreground text-sm placeholder-muted-foreground"
-                      placeholder="e.g. +91 73495 81177"
+                      placeholder="e.g. +91 73495 81177, +91 96114 18625"
                     />
                   </div>
 

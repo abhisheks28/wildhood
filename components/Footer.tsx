@@ -35,11 +35,11 @@ export function Footer() {
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-          
+
           {/* Brand & Logo */}
           <div className="space-y-5">
             <div className="flex items-center gap-3">
-              <Logo className="w-10 h-10 text-white" strokeWidth={2} />
+              <Logo className="w-10 h-10" variant="light" />
               <div className="flex flex-col">
                 <h3 className="text-xl font-serif font-black tracking-wider text-white leading-none uppercase">WHP</h3>
                 <span className="text-[9px] tracking-[0.22em] font-semibold text-white/60 uppercase leading-none mt-1">Wildhood</span>
@@ -112,7 +112,7 @@ export function Footer() {
               <li>
                 <a href="tel:+917349581177" className="flex items-start gap-2.5 text-white/70 hover:text-white transition-colors font-light group">
                   <Phone className="w-4 h-4 text-white/60 group-hover:text-white flex-shrink-0 mt-0.5" />
-                  <span>+91 73495 81177</span>
+                  <span>+91 73495 81177/+91 9611418625</span>
                 </a>
               </li>
               <li className="flex items-start gap-2.5 text-white/70 font-light">
@@ -141,28 +141,28 @@ export function Footer() {
 
           {/* Social Links matching Business Card / Wix */}
           <div className="flex items-center gap-4 text-white/60">
-            <a 
-              href="https://instagram.com" 
-              target="_blank" 
-              rel="noreferrer" 
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noreferrer"
               className="hover:text-white hover:scale-110 transition-all"
               aria-label="Instagram"
             >
               <InstagramIcon className="w-4.5 h-4.5" />
             </a>
-            <a 
-              href="https://facebook.com" 
-              target="_blank" 
-              rel="noreferrer" 
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noreferrer"
               className="hover:text-white hover:scale-110 transition-all"
               aria-label="Facebook"
             >
               <FacebookIcon className="w-4.5 h-4.5" />
             </a>
-            <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noreferrer" 
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noreferrer"
               className="hover:text-white hover:scale-110 transition-all"
               aria-label="X (Twitter)"
             >
