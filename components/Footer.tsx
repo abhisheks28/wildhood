@@ -41,8 +41,8 @@ export function Footer() {
             <div className="flex items-center gap-3">
               <Logo className="w-10 h-10" variant="light" />
               <div className="flex flex-col">
-                <h3 className="text-xl font-serif font-black tracking-wider text-white leading-none uppercase">WHP</h3>
-                <span className="text-[9px] tracking-[0.22em] font-semibold text-white/60 uppercase leading-none mt-1">Wildhood</span>
+                <h3 className="text-xl font-serif font-black tracking-wider text-white leading-none uppercase">Wildhood</h3>
+                <span className="text-[9px] tracking-[0.22em] font-semibold text-white/60 uppercase leading-none mt-1">--Photography--</span>
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed font-light">
@@ -112,7 +112,7 @@ export function Footer() {
               <li>
                 <a href="tel:+917349581177" className="flex items-start gap-2.5 text-white/70 hover:text-white transition-colors font-light group">
                   <Phone className="w-4 h-4 text-white/60 group-hover:text-white flex-shrink-0 mt-0.5" />
-                  <span>+91 73495 81177/+91 9611418625</span>
+                  <span>+91 73495 81177, +91 96114 18625</span>
                 </a>
               </li>
               <li className="flex items-start gap-2.5 text-white/70 font-light">

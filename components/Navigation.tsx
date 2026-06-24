@@ -35,13 +35,13 @@ export function Navigation() {
     <nav className="sticky top-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/60 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          
+
           {/* Logo & WHP Brand */}
           <Link href="/" className="flex items-center gap-2.5 group">
             <Logo className="w-9 h-9 transition-transform duration-300 group-hover:rotate-12" variant="adaptive" />
             <div className="flex flex-col">
-              <span className="text-xl font-serif font-black tracking-wider text-primary leading-none uppercase">WHP</span>
-              <span className="text-[9px] tracking-[0.22em] font-semibold text-muted-foreground uppercase leading-none mt-1">Wildhood</span>
+              <span className="text-xl font-serif font-black tracking-wider text-primary leading-none uppercase">Wildhood</span>
+              <span className="text-[9px] tracking-[0.22em] font-semibold text-muted-foreground uppercase leading-none mt-1">---Photography---</span>
             </div>
           </Link>
 
@@ -62,19 +62,19 @@ export function Navigation() {
           <div className="hidden md:flex items-center gap-6">
             {/* Social Icons */}
             <div className="flex items-center gap-3 border-r border-border pr-5 text-muted-foreground">
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noreferrer"
                 className="hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
                 <FacebookIcon className="w-4 h-4" />
               </a>
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer"
                 className="hover:text-primary transition-colors"
                 aria-label="Instagram"
               >
@@ -119,23 +119,23 @@ export function Navigation() {
                 {label}
               </Link>
             ))}
-            
+
             {/* Social Links on Mobile */}
             <div className="flex items-center gap-4 px-4 py-3 text-muted-foreground border-t border-border/40 mt-3 pt-4">
               <span className="text-xs uppercase tracking-wider font-semibold">Follow Us:</span>
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noreferrer"
                 className="hover:text-primary transition-colors"
                 aria-label="Facebook"
               >
                 <FacebookIcon className="w-4 h-4" />
               </a>
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
-                rel="noreferrer" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer"
                 className="hover:text-primary transition-colors"
                 aria-label="Instagram"
               >

@@ -20,7 +20,7 @@ export function Logo({
   return (
     <div className={`relative ${className}`}>
       <img
-        src="/favicon.ico"
+        src="/logo.png"
         alt="Wildhood Logo"
         className={imgClass}
       />
