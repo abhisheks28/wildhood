@@ -21,15 +21,31 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Professional Photography Studio - Portraits, Weddings & Commercial',
-  description: 'Professional photography for portraits, weddings, commercial, and events. Capturing life&apos;s most important moments with artistic vision and technical excellence.',
-  generator: 'v0.app',
-  keywords: 'professional photography, portrait photography, wedding photography, commercial photography, event photography',
-  authors: [{ name: 'Professional Photography Studio' }],
+  metadataBase: new URL('https://wildhoodphoto.in'),
+  title: 'Wildhood Photo | Nature & Wildlife Photography',
+  description: "Explore stunning wildlife, nature, and landscape photography. Capturing nature's wild essence through unforgettable moments.",
+  keywords: [
+    'Wildhood Photo',
+    'Wildlife Photography',
+    'Nature Photography',
+    'Landscape Photography',
+    'Photographer India',
+  ],
+  icons: {
+    icon: '/favicon.ico',
+  },
   openGraph: {
-    title: 'Professional Photography Studio',
-    description: 'Professional photography services for all occasions',
-    type: 'website',
+    title: 'Wildhood Photo',
+    description: "Capturing nature's wild essence.",
+    url: 'https://wildhoodphoto.in',
+    siteName: 'Wildhood Photo',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 }
 
